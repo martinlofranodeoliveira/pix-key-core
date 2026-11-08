@@ -1,0 +1,14 @@
+{
+  "name": "pix-key-core",
+  "version": "0.1.0",
+  "description": "Brazilian PIX key classification and validation: CPF, CNPJ, email, phone, EVP. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/pix.test.js",
+    "demo": "node bin/pix.mjs --assert"
+  }
+}
